@@ -58,8 +58,23 @@ body {
         display: block;
         text-align: left;
     }
+
+
 }
 
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: chocolate;
 
+}
 
+.main-content{
+    display: flex;
+    margin-left: 20px;
+}
 
+.main-content .box{
+    flex-basis: 40%;
+}
