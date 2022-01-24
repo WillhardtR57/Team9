@@ -1,41 +1,65 @@
-
 body {
     font-family: Arial;
     margin: 0px;
-    background-color: cornsilk;
+}
+
+.main {
+    margin-top: 50px;
 }
 
 .navbar {
     overflow: hidden;
     background-color: chocolate;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .navbar a {
     float: left;
     color: black;
+    display: block;
     text-align: center;
-    padding: 15px 15px;
+    padding: 10px 25px;
     text-decoration: none;
     font-size: larger;
 }
 
 .navbar a:hover {
     background-color: burlywood;
-}
-
-.navbar a.active {
-    background-color: burlywood;
     color: black;
 }
 
-.navbar img {
-    float: left;
-    max-height: 75px;
-    max-width: 300px;
-    padding: 15px;
+.navbar a.active {
+    background-color: rgb(224, 164, 85);
+    color: black;
 }
+
+.navbar .icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
 
 
