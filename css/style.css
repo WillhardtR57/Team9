@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial;
+    margin: 0px;
+    background-color: cornsilk;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: chocolate;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.navbar a:hover {
+    background-color: burlywood;
+}
+
+.navbar a.active {
+    background-color: burlywood;
+    color: black;
+}
+
+.navbar img {
+    float: left;
+    max-height: 75px;
+    max-width: 300px;
+    padding: 15px;
+}
+
+
