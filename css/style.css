@@ -62,19 +62,110 @@ body {
 
 }
 
+
+
+
+
 footer{
-    position: fixed;
+    position: static;
+    background-color: chocolate;
     bottom: 0%;
     width: 100%;
-    background-color: chocolate;
-
 }
 
 .main-content{
     display: flex;
     margin-left: 20px;
+    
 }
 
 .main-content .box{
-    flex-basis: 40%;
+    flex-basis: 50%;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+
+
+.content a:link{
+    color: black;
+
+}
+.content a:visited{
+    color: black;
+
+}
+.content a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.wrapper{
+    width: 1200px;
+    margin: 100px auto;
+    max-width: 100%;
+
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.title h4{
+    text-transform: capitalize;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+
+
+}
+
+.title h4 span{
+    display: block;
+    font-size: 18px;
+}
+
+.title h4::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: chocolate;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-content{
+    flex-basis: 580px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid chocolate;
+ 
+    flex-direction: row;
+    align-items: center;
+}
+.menu-content h4{
+    font-size: 22px;
+    border-bottom: 1px chocolate;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-content h4 span{
+    float: right;
+    color: chocolate;
+
 }
