@@ -20,9 +20,9 @@
 
     <style>
         img {
-      max-width: 100%;
-      height: auto;
-      }
+            max-width: 100%;
+            height: auto;
+        }
 
         body{
             text-align: center;
@@ -32,24 +32,31 @@
             text-align: center;
             padding-top: 30px;
         }
+
         h1{
-            text-align: center;
-            padding-bottom: 50px;
-        }
-        #slider{
-            overflow: hidden;
-        }
-        #slider figure{
+            text-transform: capitalize;
+            font-size: 36px;
             position: relative;
-            width: 500%;
-            margin: 0;
-            left: 0;
-            animation: 5s slider infinite;
+            display: inline-block;
+            padding-bottom: 10px;
+            padding-top: 50px;
+    
         }
-        #slider figure img{
-            width: auto;
-            float: left;
+
+
+        h1::before{
+            position: absolute;
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: chocolate;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+
+
         }
+
        
         a:link{
             color: black;
@@ -64,22 +71,20 @@
             color: chocolate;
 
         }
+
         a href{
             margin-bottom: 20px;
             padding-bottom: 20px;
         }
+
     </style>
+
+          
     
 
     
 
-    <div id="slider">
-        <figure>
-          <img src="images/pizzeria (Custom) (1).jpg" alt="First slide">
-          <img src="images/restaurant (Custom).jpg" alt="Second slide">
-          <img src="images/kebabb (Custom).jpg" alt="Third slide">
-        </figure>
-    </div>
+
 
   
 
@@ -109,7 +114,6 @@
     <p>Current restrictions on our restaurant</p>
 
     <p><a href="https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions/restaurants">covid-19</a></p>
-
 
 
     <footer>
@@ -147,18 +151,8 @@
     
         </div>
     </footer>
- 
-    
-    
-          <div class="right box">
-            <div class="content">
-              <img src="images/logo150.png" alt="logo" style="float: right;">
-    
-            </div>
-          </div>
-    
-        </div>
-    </footer>
+
+
     <script>
         function linksToggle() {
             var x = document.getElementById("dropdown");
@@ -168,6 +162,7 @@
                 x.className = "navbar";
             }
         }
-    </script>
+    </script>  
+
 </body>
 </html>
