@@ -1,15 +1,22 @@
 body {
     font-family: Arial;
     margin: 0px;
+    padding-top: 20px;
 }
 
 .main {
-    margin-top: 50px;
+    margin: auto;
+    background: rgb(235, 212, 196);
+    max-width: 1600px;
+    
 }
 
 .navbar {
     overflow: hidden;
     background-color: chocolate;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
@@ -51,7 +58,7 @@ body {
     .navbar.responsive a.icon {
         position: absolute;
         right: 0;
-        left: 0;
+        top: 0;
     }
     .navbar.responsive a {
         float: none;

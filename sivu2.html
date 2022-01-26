@@ -5,9 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
+    <header class="navbar" id="dropdown">
+        <a class="active" href="index.html">Home</a>
+        <a href="sivu1.html">Menu</a>
+        <a class="active" href="sivu2.html">Write a Review</a>
+        <a href="sivu3.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="linksToggle()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </header>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h3>Connect</h3>
+                <div class="content">
+                        <p><a href="https://fi-fi.facebook.com/">Facebook</a></p>
+                        <p><a href="https://www.instagram.com/">Instagram</a></p>
+                </div>
+            </div>
+        
+        <div class="center box">
+            <h3>Address</h3>
+            <div class="content">
+              <div class="place">
+                <span class="text">Raatihuoneenkatu 16, Hämeenlinna </span>
+              </div>
+              <div class="phone">
+                <span class="text">+35812345678</span>
+              </div>
+              <div class="email">
+                <span class="text">pizzakebab@gmail.com</span>
+              </div>
+            </div>
+          </div>
     
+    
+          <div class="right box">
+            <div class="content">
+              <img src="images/logo150.png" alt="logo" style="float: right;">
+    
+            </div>
+          </div>
+    
+        </div>
+    </footer>
+    <script>
+        function linksToggle() {
+            var x = document.getElementById("dropdown");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
 </html>
