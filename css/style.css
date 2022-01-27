@@ -6,9 +6,7 @@ body {
 }
 
 .main {
-    width: 1200px;
-    margin: 100px auto;
-    max-width: 100%;
+   margin: auto;
 }
 
 .navbar {
