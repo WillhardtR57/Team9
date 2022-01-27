@@ -2,12 +2,11 @@ body {
     font-family: Arial;
     margin: 0px;
     padding-top: 20px;
+    background: rgb(235, 212, 196);
 }
 
 .main {
     margin: auto;
-    background: rgb(235, 212, 196);
-    max-width: 1600px;
     
 }
 
@@ -15,8 +14,9 @@ body {
     overflow: hidden;
     background-color: chocolate;
     position: fixed;
-    top: 0;
     width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 .navbar a {
@@ -54,7 +54,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .navbar.responsive {position: relative;}
+    .navbar.responsive {position: top;}
     .navbar.responsive a.icon {
         position: absolute;
         right: 0;
@@ -66,13 +66,33 @@ body {
         text-align: left;
     }
 
+    td {
+        display: block;
+        padding: 10px;
+    }
+
 
 }
 
+table {
+    border-spacing: 30px;
+    box-shadow: 5px 10px rgb(224, 191, 167);
+}
 
+.opening-hours-table:first-child td{
+    font-weight: bold;
+}
 
+.table-content {
+    background-color: chocolate;
+    padding: 10px;
+    font-size: 25px;
+}
 
-
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -180,3 +200,4 @@ footer{
     color: chocolate;
 
 }
+

@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="images/icon.png" type="image/icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
     <title>Home - Pizza & Kebab</title>
 </head>
 <style>
     body {
-        background-image: url('bg.png');
+        text-align: center;
     }
 </style>
 <body>
@@ -19,15 +20,105 @@
         <a class="active" href="index.html">Home</a>
         <a href="sivu1.html">Menu</a>
         <a href="sivu2.html">Write a Review</a>
-        <a href="sivu3.html">Contact Us</a>
+        <a href="sivu3.html">About Us</a>
         <a href="javascript:void(0);" class="icon" onclick="linksToggle()">
             <i class="fa fa-bars"></i>
         </a>
     </header>
     <main class="main">
         <article>
-        <h1>otsikko</H1>
-            <img src="images/logo300.png" alt="logo">
+        <img src="images/logo300.png" alt="logo"> 
+            <table class="table-content table-center opening-hours-table">
+                <tr>
+                    <th colspan="7">Opening hours:</th>
+                </tr>
+                <tr>    
+                    <td>
+                        <strong>Mon.</strong>
+                        <br>
+                        <span>
+                            10am
+                        </span>
+                        <br>
+                        <span>
+                            6pm
+                        </span>
+                    </td>
+                    <td>
+                        <strong>Tue.</strong>
+                        <br>
+                        <span>
+                            10am
+                        </span>
+                        <br>
+                        <span>
+                            6pm
+                        </span>
+                    </td>
+                    <td>
+                        <strong>Wed.</strong>
+                        <br>
+                        <span>
+                            10am
+                        </span>
+                        <br>
+                        <span>
+                            6pm
+                        </span>
+
+                    </td>
+                    <td>
+                        <strong>Thu.</strong>
+                        <br>
+                            <span>
+                                10am
+                            </span>
+                            <br>
+                            <span>
+                                6pm
+                            </span>
+                    </td>
+                    <td>
+                        <strong>Fri.</strong>
+                        <br>
+                            <span>
+                                10am
+                            </span>
+                            <br>
+                            <span>
+                                6pm
+                            </span>
+                    </td>
+                    <td>
+                        <strong>Sat.</strong>
+                        <br>
+                            <span>
+                                10am
+                            </span>
+                            <br>
+                            <span>
+                                6pm
+                            </span>
+                    </td>
+                    <td>
+                        <strong>Sun.</strong>
+                        <br>
+                            <span>
+                                10am
+                            </span>
+                            <br>
+                            <span>
+                                6pm
+                            </span>
+                    </td>
+                </tr>
+            </table>
+        <div class="title">
+        <h4 style="font-size: 25px; padding-top: 30px;">Campaign</h4>
+        <p style="font-size: 20px;"><strong>2x Example Pizza 20€</strong></p>
+        <p style="font-size: 20px;"><strong>Example Kebab + Example Pizza 20€</strong></p>
+        <img src="images/pepperoni.jpg" alt="pepperonipizza" style="padding-top: 30px; width: 75%; height: auto;">
+        </div>
         </article> 
     </main>
     <footer>
@@ -75,5 +166,10 @@
             }
         }
     </script>
+
+
 </body>
 </html>
+
+<!--Home page made by Willhardt-->
+<!--Header made by Willhardt-->
