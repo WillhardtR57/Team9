@@ -7,8 +7,6 @@ body {
 
 .main {
     margin: auto;
-    max-width: 1200px;
-    width: 100%;
     
 }
 
@@ -52,7 +50,6 @@ body {
     .navbar a.icon {
         float: right;
         display: block;
-        width: 100%;
     }
 }
 
