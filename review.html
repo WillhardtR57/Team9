@@ -11,6 +11,9 @@
 </head>
 <body>
   <style>
+    body {
+      text-align: center;
+    }
       img {
             max-width: 100%;
             height: auto;
@@ -25,6 +28,35 @@
             <i class="fa fa-bars"></i>
         </a>
     </header>
+
+    <div class="lomake">
+      <form method="post">
+        <div>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Your name" required="">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="Your email" required="">
+        </div>
+        <div>
+          <label for="Topic">Topic:</label>
+          <input id="topic" type="text" placeholder="Your topic" required="">
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea name="Message" id="msg" rows="4" cols="50" placeholder="Your message" required=""></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+
+
+
+
     <footer>
         <div class="main-content">
             <div class="left box">
