@@ -1,7 +1,8 @@
+/* These lines of CSS code made by Willhardt */
+
 body {
     font-family: Arial;
     margin: 0px;
-    padding-top: 20px;
     background: rgb(235, 212, 196);
 }
 
@@ -14,7 +15,6 @@ body {
     background-color: chocolate;
     position: fixed;
     width: 100%;
-    top: 0;
     z-index: 2;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar.responsive {position: top;}
+    .navbar.responsive {position: relative;}
     .navbar.responsive a.icon {
         position: absolute;
         right: 0;
@@ -101,7 +101,7 @@ table {
 
 .form-box {
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 150px;
     border-radius: 5px;
     background-color: chocolate;
@@ -159,6 +159,14 @@ input[type=submit]:hover {
 
 /* Start of CSS codes made by Eevi */
 }
+
+/* End of CSS codes made by Willhardt */
+
+
+
+
+
+
 footer{
     position: static;
     background-color: chocolate;
